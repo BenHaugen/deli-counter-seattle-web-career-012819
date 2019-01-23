@@ -6,7 +6,7 @@ def line(people)
   if people = 0 
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{people}."
+    puts "The line is currently: #{katz_deli}."
 end 
 end
 
