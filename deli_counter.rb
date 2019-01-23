@@ -10,7 +10,6 @@ def line(people)
       puts "The line is currently: #{place + 1}. #{people}"
 end 
 end
-end
 
 def take_a_number(katz_deli, name)
   puts katz_deli.push(name)
