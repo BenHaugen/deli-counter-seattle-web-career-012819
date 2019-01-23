@@ -8,9 +8,9 @@ def line(people)
     puts "The line is currently empty."
   else
     people.each_with_index do |people, place|
-      line_array.push()
-      puts "The line is currently: #{place + 1}. #{people}"
+      line_array.push("#{place + 1}. #{people}")
 end 
+  puts "The line is currently " + line_array
 end
 end
 
