@@ -3,10 +3,12 @@
 katz_deli = []
 
 def line(people)
+  line_of_people = []
   if people = 0 
     puts "The line is currently empty."
   else 
     people.each_with_index(1) do |people, place|
+      line_of_people.push(people)
     end 
       puts "The line is currently: #{place}. #{people}"
 end 
