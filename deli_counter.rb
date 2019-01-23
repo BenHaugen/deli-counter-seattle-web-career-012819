@@ -19,7 +19,7 @@ def now_serving(katz_deli, name)
     puts "There is nobody waiting to be served!"
   else 
     puts "Currently serving #{name[0]}."
+    katz_deli.unshift(name)
 end
-katz_deli.unshift(name)
 end 
   
