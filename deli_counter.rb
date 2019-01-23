@@ -10,7 +10,7 @@ def line(people)
 end 
 end
 
-def take_a_number(katz_deli, string)
+def take_a_number(katz_deli, name)
   katz_deli.each do |name|
     puts 
 end
