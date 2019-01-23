@@ -13,6 +13,7 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli = 0 
     return name
+  end
   katz_deli.each_with_index do |name, place|
     puts "#{place + 1}. #{name}"
 end
