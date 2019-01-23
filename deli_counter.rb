@@ -3,7 +3,7 @@
 katz_deli = []
 
 def line(people)
-  if people.empty? == true 
+  if people.length == 0 
     puts "The line is currently empty."
   elsif
     people.each_with_index do |people, place|
