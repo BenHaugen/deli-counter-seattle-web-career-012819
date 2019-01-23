@@ -4,7 +4,7 @@ katz_deli = []
 
 def line(people)
   line_of_people = []
-  if people = 0 
+  if people.empty? == true 
     puts "The line is currently empty."
   else 
     people.each_with_index do |people, place|
