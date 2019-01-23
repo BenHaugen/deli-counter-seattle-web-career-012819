@@ -6,8 +6,8 @@ def line(people)
   if people = 0 
     puts "The line is currently empty."
   else 
-    people.each_with_index(1)|people, place| do 
-      puts "The line is currently: #{place + 1}. #{people}"
+    people.each_with_index(1) do |people, place|
+      puts "The line is currently: #{place}. #{people}"
 end 
 end
 
