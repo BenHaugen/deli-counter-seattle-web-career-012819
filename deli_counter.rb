@@ -10,7 +10,7 @@ def line(people)
     people.each_with_index do |people, place|
       line_array.push("#{place + 1}. #{people}")
 end 
-  puts "The line is currently " + line_array
+  puts "The line is currently: " + line_array
 end
 end
 
